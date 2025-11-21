@@ -891,11 +891,7 @@ body {
   backdrop-filter: blur(4px);
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   }
-  .about {
-  border: 2px solid #d0d0d0;
-  padding: 40px;
-  border-radius: 15px;
-}
+
 .home {
   border: 2px solid #cfcfcf;
   padding: 40px;
@@ -903,4 +899,5 @@ body {
   background: #fffafacc;
 }
 }
+
 
