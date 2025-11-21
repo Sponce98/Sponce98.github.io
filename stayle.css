@@ -213,11 +213,14 @@ hr {
 
 .about img{
     position: relative;
-    bottom: 85px;
-    width: 500px;
-    height: 500px;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
     border-radius: 15px;
     border: 1px solid black;
+    display: block;
+    margin: auto;
 }
 
 .about h2{
@@ -902,6 +905,7 @@ body {
   background: #fffafacc;
 }
 }
+
 
 
 
