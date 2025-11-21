@@ -834,14 +834,17 @@ body {
     gap: 1.5rem;
   }
 
-  .about img {
-    width: 100%;
-    max-width: 220px; 
-    height: auto;
-    margin-bottom: 20px;
+ .about img{
     position: relative;
-    z-index: 1; 
-  }
+    bottom: 0;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+}
 
   .card .c1 {
     width: 100%;
@@ -899,5 +902,6 @@ body {
   background: #fffafacc;
 }
 }
+
 
 
